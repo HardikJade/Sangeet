@@ -6,7 +6,7 @@ export default function MainScreenProfile() {
         <div className="profile_container">
             <div className="profile_pic">
                 <div className="image_container">
-                    <img src="" alt="Profile Image" className="main_profile" />
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Profile Image" className="main_profile" />
                 </div>
             </div>
             <div className="description">

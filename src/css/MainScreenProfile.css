@@ -1,12 +1,21 @@
-@import "../fonts/LouisGeorgeCafe.ttf";
+@font-face {
+    font-family: Sangeet;
+    src: url("../fonts/LouisGeorgeCafe.ttf");
+  }
+  @font-face {
+    font-family: Sangeet_Bold;
+    src: url("../fonts/LouisGeorgeCafeBold.ttf");
+  }
 .profile_container{
+    position: relative;
+    top: -40px;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #fff;
-    background: red;
+    background: transparent;
+    border-radius: 20px;
 }
 .profile_container .profile_pic{
     position: relative;
@@ -28,5 +37,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: 'LouisGeorgeCafe';
+    font-family: 'Sangeet','Times New Roman', Times, serif;
+}
+.profile_container .description .name,
+.profile_container .description .username{
+    padding: 2px 20px;
+}
+.profile_container .description .username{
+    color: #5E77FB;
+}
+.profile_container .description .name{
+    font-family: 'Sangeet_Bold';
+    font-weight: 800;
 }

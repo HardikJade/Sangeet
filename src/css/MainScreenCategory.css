@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Sangeet;
+    src: url("../fonts/LouisGeorgeCafe.ttf");
+}
+.main_cat_cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 15px;
+}
+.item_cont{width: 100%;}
+.main_cat_cont .heading{
+    font-family: 'Sangeet';
+    justify-self: flex-start;
+    font-size: 20px;
+    font-weight: 1000;
+    width: 100%;
+}
