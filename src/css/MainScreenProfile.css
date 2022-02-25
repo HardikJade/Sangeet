@@ -1,0 +1,32 @@
+@import "../fonts/LouisGeorgeCafe.ttf";
+.profile_container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    background: red;
+}
+.profile_container .profile_pic{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background: transparent;
+}
+.profile_container .profile_pic .main_profile{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: grey;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.profile_container .description{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'LouisGeorgeCafe';
+}
