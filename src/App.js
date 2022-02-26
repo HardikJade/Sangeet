@@ -3,13 +3,14 @@ import MainScreenProfile from "./components/MainScreenProfile";
 import MainScreenCategory from "./components/MainScreenCategory";
 import TopBar from "./components/TopBar";
 import MainContent from "./components/MainContent";
+import BottomControl from "./components/BottomControl";
 function App() {
   return (
     <>
       <div className="main_container">
         <div className="content_container">
           <div className="left_sidebar">
-            <MainScreenProfile/>
+            <MainScreenProfile name = "Hardik Jade" email = "email@gmail.com"/>
             <div className="CategoryCont">
               <MainScreenCategory heading="Browse"/>
               <MainScreenCategory heading="Discover"/>
@@ -20,7 +21,9 @@ function App() {
             <MainContent/>
           </div>
         </div>
-        <div className="bottom_container"></div>
+        <div className="bottom_container">
+          <BottomControl/>
+        </div>
       </div>
     </>
   );

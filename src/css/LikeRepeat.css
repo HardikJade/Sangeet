@@ -1,0 +1,19 @@
+.likeRepeatContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    padding: 10px;
+}
+.likeRepeatContainer img{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    object-fit: scale-down;
+    object-position: center;
+}
+.likeRepeatContainer .like,
+.likeRepeatContainer .playlist,
+.likeRepeatContainer .repeat{
+    margin: 10px;
+}

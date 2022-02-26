@@ -13,10 +13,19 @@
     margin-top: 2px;
 }
 .item_container .disIcon{
-    background: pink;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 25px;
     width: 25px;
-    margin-right: 10px;
+    margin-right: 5px;
+}
+.item_container .disIcon img{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    object-fit:scale-down;
 }
 .item_container .itemName{
     font-family: 'Sangeet';

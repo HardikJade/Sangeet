@@ -1,0 +1,55 @@
+.SongControlContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 10px;
+}
+.SongControlContainer .playButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.SongControlContainer .playButton .mainButton{
+    border: 2px solid #111;    
+    border-radius: 50%;
+}
+.SongControlContainer .playButton .mainButton img{
+    position: relative;
+    left: 3px;
+}
+.SongControlContainer .playButton .btn img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.SongControlContainer .playButton .mainButton img{
+    height: 25px;
+    width: 25px;
+}
+.SongControlContainer .playButton .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+}
+.SongControlContainer .seekControl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    flex-wrap: nowrap;
+    width: 100%;
+    font-family: Sangeet;
+    font-weight: 600;
+}
+.SongControlContainer .seekControl .seekBar{
+    padding: 0 10px;
+}
+.SongControlContainer .seekControl .seekBar,
+.SongControlContainer .seekControl .slider{
+    width: 100%;
+}

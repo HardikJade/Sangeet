@@ -1,0 +1,22 @@
+.AllSongContainer{margin: 10px;}
+.AllSongContainer .songProfile {
+    position: relative;
+    height: 125px;
+    width: 125px;
+    margin-bottom: 5px;
+}
+.AllSongContainer .songProfile .songImage{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.AllSongContainer .description{
+    font-family: Sangeet;
+    padding: 0 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.AllSongContainer .description .name{font-weight: 600;}
