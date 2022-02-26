@@ -1,6 +1,8 @@
 import "./css/App.css"
 import MainScreenProfile from "./components/MainScreenProfile";
 import MainScreenCategory from "./components/MainScreenCategory";
+import TopBar from "./components/TopBar";
+import MainContent from "./components/MainContent";
 function App() {
   return (
     <>
@@ -14,12 +16,8 @@ function App() {
             </div>
           </div>
           <div className="right_content">
-            <input type="text" className="searchBar" placeholder="Search" name="" id="" />
-            <div className="upgrade">
-              <div className="upgraderButton">Upgrade To Premium</div>
-              <div className="settingButton"></div>
-              <div className="notificationButton"></div>
-            </div>
+            <TopBar/>
+            <MainContent/>
           </div>
         </div>
         <div className="bottom_container"></div>

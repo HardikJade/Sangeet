@@ -1,0 +1,41 @@
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.right_content .searchBar{
+    width: 70%;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    font-family: 'Sangeet';
+    font-size: 15px;
+}
+.upgrade{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    flex-wrap: nowrap;    
+}
+.upgrade .upgraderButton{
+    padding: 8px 20px;
+    font-family: 'Sangeet';
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 0 10px;
+    border:2px solid #5E77FB;
+    cursor: pointer;
+}
+.upgrade .notificationButton,
+.upgrade .settingButton{
+    height: 30px;
+    width: 30px;
+    background: red;
+    margin: 5px;
+    cursor: pointer;
+}

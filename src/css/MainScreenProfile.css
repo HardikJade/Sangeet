@@ -18,10 +18,17 @@
     border-radius: 20px;
 }
 .profile_container .profile_pic{
-    position: relative;
     height: 80px;
     width: 80px;
     background: transparent;
+}
+.profile_container .profile_pic .image_container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .profile_container .profile_pic .main_profile{
     position: absolute;
@@ -29,6 +36,7 @@
     width: 100%;
     border-radius: 50%;
     background: grey;
+    object-position: center;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 .profile_container .description{

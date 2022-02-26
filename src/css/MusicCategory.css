@@ -1,0 +1,24 @@
+.MusicCatContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+}
+.MusicCatContainer .heading{
+    font-family: Sangeet;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.MusicCatContainer .CardHolder{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+}

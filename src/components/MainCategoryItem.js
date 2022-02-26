@@ -4,7 +4,8 @@ export default function MainCategoryItem(props) {
   return (
       <>
         <div className="item_container">
-            <div className="disIcon"></div>
+            <div className="disIcon">             
+            </div>
             <div className="itemName">{props.heading}</div>
         </div>
       </>

@@ -1,0 +1,32 @@
+.CardBody{
+    min-width: 200px;
+    margin: 10px;
+}
+.CardBody .CardImageHolder{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.CardBody .CardImageHolder .thumbnail{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.CardBody .CardImageHolder .CardDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.CardBody .CardDescription .name{
+    font-weight: 600;
+}
+.CardBody .CardDescription .artist,
+.CardBody .CardDescription .name{
+    padding: 5px 15px;
+    font-family: Sangeet;
+}
