@@ -11,14 +11,13 @@ import podcast from "../icons/mic.png"
 export default function MainCategoryItem(props) {
   let heading = props.heading;
   let image = null;
-  if(heading == "Home"){image = home;}
-  else if(heading == "Playlist"){image = playlist}
-  else if(heading == "Artist"){image = artist}
-  else if(heading == "Albums"){image = group}
-  else if(heading == "Radio"){image = radio}
-  else if(heading == "Events"){image = event}
-  else if(heading == "Podcasts"){image = podcast}
-
+  if(heading === "Home"){image = home;}
+  else if(heading === "Playlist"){image = playlist}
+  else if(heading === "Artist"){image = artist}
+  else if(heading === "Albums"){image = group}
+  else if(heading === "Radio"){image = radio}
+  else if(heading === "Events"){image = event}
+  else if(heading === "Podcasts"){image = podcast}
   return (
       <>
         <div className="item_container">
