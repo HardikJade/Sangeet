@@ -4,6 +4,7 @@ import MainScreenCategory from "./components/MainScreenCategory";
 import TopBar from "./components/TopBar";
 import MainContent from "./components/MainContent";
 import BottomControl from "./components/BottomControl";
+import "./css/Responsive.css"
 function App() {
   return (
     <>

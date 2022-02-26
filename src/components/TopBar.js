@@ -7,7 +7,7 @@ export default function TopBar() {
     <div className="bar">
         <input type="text" className="searchBar" placeholder="Search" name="" id="" />
         <div className="upgrade">
-            <div className="upgraderButton">Upgrade To Premium</div>
+            {/* <div className="upgraderButton">Upgrade To Premium</div> */}
             <div className="settingButton"><img src={setting} alt="" /></div>
             <div className="notificationButton"><img src={bell} alt="" /></div>
         </div>
