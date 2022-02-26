@@ -44,7 +44,7 @@
 }
 @media(max-width:525px){
     .itemContainer {min-height: 60px;}
-    .content_container {
-        height: calc(100vh - 160px);
-    }
+    .content_container {height: calc(100vh - 160px);}
+    .allSongContainer {margin: 0;}
+    .allSongContainer .allSongList{padding: 0;}
 }
