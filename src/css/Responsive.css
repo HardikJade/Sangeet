@@ -17,13 +17,17 @@
     .left_sidebar {width: 190px;}
 }
 @media(max-width:820px){
+    .bar .menu_hamburger{display: block;}
     .left_sidebar{display: none;}
     .right_content{width: 100%;}
+    .hamburgerContainer{
+        left: 0;
+        visibility: visible;
+        display: block;
+    }
 }
 @media(max-width:716px){
-    .content_container{
-        height: calc(100vh - 190px);
-    }
+    .content_container{height: calc(100vh - 190px);}
     .runningSongProfile{display: none;}
     .bottom_container{height: auto;}
     .runningSongContainer .description .authorName{display: none;}

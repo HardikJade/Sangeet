@@ -1,14 +1,20 @@
-import "./css/App.css"
 import MainScreenProfile from "./components/MainScreenProfile";
 import MainScreenCategory from "./components/MainScreenCategory";
 import TopBar from "./components/TopBar";
 import MainContent from "./components/MainContent";
 import BottomControl from "./components/BottomControl";
+import HamburgerMenu from "./components/HamburgerMenu";
+import "./css/App.css"
 import "./css/Responsive.css"
+export function toggleMenu(){
+  let hamBurger = document.querySelector(".hamburgerContainer");
+  hamBurger.classList.toggle('close');
+}
 function App() {
   return (
     <>
       <div className="main_container">
+        <HamburgerMenu/>
         <div className="content_container">
           <div className="left_sidebar">
             <MainScreenProfile name = "Hardik Jade" email = "email@gmail.com"/>

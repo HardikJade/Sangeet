@@ -6,6 +6,27 @@
     width: 100%;
     margin-bottom: 10px;
 }
+.bar .menu_hamburger{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    cursor: pointer;
+    display: none;
+}
+.bar .menu_hamburger .menu{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    object-position: center;
+    -o-object-fit: scale-down;
+    object-fit: scale-down;
+    height: 25px;
+    width: 25px;
+}
 .right_content .searchBar{
     width: 100%;
     padding: 10px 20px;

@@ -1,0 +1,86 @@
+.hamburgerContainer{
+    position: absolute;
+    height: 100vh;
+    background: #fff;
+    top: 0;        
+    padding: 50px 30px;
+    width: 300px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 0 20px 20px 0;
+    z-index: 999999999 !important;
+    margin-bottom: 20px;
+}
+.close{
+    left: -500px !important;
+    visibility: hidden !important;
+    display: none !important;
+}
+.hamburgerContainer .closeMe{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+    top: 20px;
+    left: 0;
+    width: 100%;
+}
+.hamburgerContainer .closeContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    width: 18px;    
+}
+.hamburgerContainer .closeContainer img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.hamburgerContainer .contentContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: Sangeet;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+.hamburgerContainer .contentContainer .heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hamburgerContainer .contentContainer .itemContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.hamburgerContainer .contentContainer .itemContainer .item .title{
+    font-family: Sangeet;
+    font-size: 18px;
+}
+.hamburgerContainer .contentContainer .itemContainer .item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    margin: 5px 0;
+}
+.hamburgerContainer .contentContainer .itemContainer .item .icon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.hamburgerContainer .contentContainer .itemContainer .item .icon .iconImg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    object-position: center;
+}
